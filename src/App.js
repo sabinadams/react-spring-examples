@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AnimatedLoader from './examples/useSpring/animatedLoader'
+import FadingText from './examples/useSpring/fadingText'
+import ToggleText from './examples/useSpring/toggleText'
+import MorphingDivs from './examples/useSprings/morphingDivs'
+import RoundingSquares from './examples/useTrail/roundingSquares'
+import SquareToCircleList from './examples/useTransition/squareToCircleList'
+import AddFlairList from './examples/useChain/addFlairList'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <AnimatedLoader/> */}
+        {/* <FadingText/> */}
+        {/* <ToggleText/> */}
+        {/* <MorphingDivs/> */}
+        {/* <RoundingSquares/> */}
+        {/* <SquareToCircleList/> */}
+        <AddFlairList/>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
