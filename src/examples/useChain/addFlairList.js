@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react'
 import '../../App.css'
 import { useTransition, useSpring, useChain, animated } from 'react-spring'
 
-function SquareToCircleList() {
+function AddFlairList() {
 
     const [ elements, setElements ] = useState([{
         id: 1,
@@ -73,4 +73,4 @@ function SquareToCircleList() {
     )
 }
 
-export default SquareToCircleList
+export default AddFlairList
